@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
@@ -17,7 +18,7 @@ import java.util.Locale;
 /**
  * Created by Виталий on 01.12.14.
  */
-public class Main extends Activity {
+public class Main extends ActionBarActivity {
     TextView[] textViews = new TextView[2];
     View.OnClickListener onClickListener = new View.OnClickListener() {
         @Override
